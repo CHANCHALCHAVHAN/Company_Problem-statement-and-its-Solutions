@@ -57,42 +57,36 @@ Sorted in descending order: CC, CB, CA, BB, BA, BC, AC, AB, AA.
 Smallest ASCII difference is between CC and CB.
 '''
 #CODE
-from itertools import product
+import itertools
 
-def generate_product_codes(N, char1, char2, char3):
-    # Step 1: Generate all possible product codes
-    chars = [char1, char2, char3]
-    codes = [''.join(code) for code in product(chars, repeat=N)]
+def solve():
+    N = int(input())
+    chars = [input().strip() for _ in range(3)]
+    chars_sorted = sorted(chars, reverse=True)
     
-    # Step 2: Sort codes in lexicographically descending order
-    codes.sort(reverse=True)
+    # Generate all possible product codes of length N
+    product_codes = [''.join(p) for p in itertools.product(chars_sorted, repeat=N)]
     
-    # Step 3: Find the pair with the smallest ASCII difference
+    # Remove duplicates (though with same chars, no duplicates in product if chars are unique)
+    unique_codes = list(product_codes)
+    unique_codes_sorted = sorted(unique_codes, reverse=True)
+    
+    print(len(unique_codes_sorted))
+    print(' '.join(unique_codes_sorted))
+    
     min_diff = float('inf')
-    smallest_pair = None
+    pair = (None, None)
     
-    for i in range(len(codes)):
-        for j in range(i + 1, len(codes)):
-            # Calculate ASCII difference between codes[i] and codes[j]
-            diff = sum(abs(ord(a) - ord(b)) for a, b in zip(codes[i], codes[j]))
-            
-            # Update smallest_pair if a smaller difference is found
-            if diff < min_diff:
-                min_diff = diff
-                smallest_pair = (codes[i], codes[j])
-            elif diff == min_diff:  # Tie-breaking based on lexicographical order
-                if (codes[i] < smallest_pair[0]) or (codes[i] == smallest_pair[0] and codes[j] < smallest_pair[1]):
-                    smallest_pair = (codes[i], codes[j])
+    for i in range(len(unique_codes_sorted) - 1):
+        code1 = unique_codes_sorted[i]
+        code2 = unique_codes_sorted[i + 1]
+        current_diff = 0
+        for c1, c2 in zip(code1, code2):
+            current_diff += abs(ord(c1) - ord(c2))
+        if current_diff < min_diff:
+            min_diff = current_diff
+            pair = (code1, code2)
     
-    # Step 4: Output results
-    print(len(codes))
-    print(' '.join(codes))
-    print(' '.join(smallest_pair))
+    print(' '.join(pair))
 
-# Example input
-N = int(input())  # Length of the product code
-char1 = input().strip()
-char2 = input().strip()
-char3 = input().strip()
-
-generate_product_codes(N, char1, char2, char3)
+solve()
