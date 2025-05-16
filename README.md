@@ -53,46 +53,39 @@ This repository is built to **guide and inspire students** preparing for coding 
 
 Here are some coding problems with their respective topics and difficulty levels:
 
-| Day | Problem Title                                              | Topic(s)                                              | Difficulty | Link                                                                                               |
-| --- | ----------------------------------------------------------- | ----------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------- |
-| 01  | Allocate Maximum Workload                                  | **Greedy**, **Load Balancing**                        | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Allocate%20Maximum%20Workload.py) |                                                 |
-| 02  | Binary Balance Game                                        | **Bit Manipulation**, **Binary Logic**                | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Binary%20Balance%20Game.py)                                           |
-| 03  | Blossomville Bee Battle: Lily vs. Rose!                    | **Hashing**, **Lists**, **Frequency Count**           | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Blossomville%20Bee%20Battle%3A%20Lily%20vs.%20Rose!.py)
-| 04  | Distinct Paths in a Weighted Tree                    | **Data Structure**, **unionn**, **Tree**           | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Blossomville%20Bee%20Battle%3A%20Lily%20vs.%20Rose!.py)|
-| 05  | Dividing the Ancient Treasure_Partners_or_Phoenix                   | **Dynamic Programming**, **Greedy Algorithm**, **Equal Subset Sum Problem** ,**Data Structures & Algorithms**          | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Dividing%20the%20Ancient%20Treasure_Partners_or_Phoenix.py)|
-| 06  | Dungeon Escape: The Path of Keys                           | **Simulation**, **BFS/DFS**                           | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Dungeon%20Escape%3A%20The%20Path%20of%20Keys.py)                               |
-| 07  | Dynamic Path Queries in a Weighted Tree     | **Prefix Sum**, **Arrays**,**Tree**                            | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Dynamic%20Path%20Queries%20in%20a%20Weighted%20Tree.py)         |
-| 08  | Efficient Navigation in Arcadia                            | **Graphs**, **Shortest Path**, **Dijkstra**           | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Efficient%20Navigation%20in%20Arcadia.py)                                          |
+| Day | Problem Title                                              | Topic(s)                                              | Difficulty | Link                                                                                                 |By the Companies                        |
+| --- | ----------------------------------------------------------- | ----------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------|
+| 01  | Allocate Maximum Workload                                  | **Greedy**, **Load Balancing**                        | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Allocate%20Maximum%20Workload.py) | **Google**,**Amazon**,**Adobe**                                                |
+| 02  | Binary Balance Game                                        | **Bit Manipulation**, **Binary Logic**                | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Binary%20Balance%20Game.py)   |**Atlassian** ,**Snowflake**, **HackerRank**                                        |
+| 03  | Blossomville Bee Battle: Lily vs. Rose!                    | **Hashing**, **Lists**, **Frequency Count**           | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Blossomville%20Bee%20Battle%3A%20Lily%20vs.%20Rose!.py) | **Samsung** , **NVIDIA** , **Zoho**
+| 04  | Distinct Paths in a Weighted Tree                    | **Data Structure**, **unionn**, **Tree**           | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Blossomville%20Bee%20Battle%3A%20Lily%20vs.%20Rose!.py)| **Meesho** , **VMware** , **ZS** |
+| 05  | Dividing the Ancient Treasure_Partners_or_Phoenix                   | **Dynamic Programming**, **Greedy Algorithm**, **Equal Subset Sum Problem** ,**Data Structures & Algorithms**          | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Dividing%20the%20Ancient%20Treasure_Partners_or_Phoenix.py)| **Dell** , **IBM** , **ZS** , **PwC** |
+| 06  | Dungeon Escape: The Path of Keys                           | **Simulation**, **BFS/DFS** ,**Fibbonacci Series**                         | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Dungeon%20Escape%3A%20The%20Path%20of%20Keys.py) |**Amazon**, **Flipkart** , **TCS Digital**                              |
+| 07  | Dynamic Path Queries in a Weighted Tree     | **Prefix Sum**, **Arrays**,**Tree**                            | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Dynamic%20Path%20Queries%20in%20a%20Weighted%20Tree.py)         |**Meta** , **Microsoft** |
+| 08  | Efficient Navigation in Arcadia                            | **Graphs**, **Shortest Path**, **Dijkstra**           | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Efficient%20Navigation%20in%20Arcadia.py)                                          |**Rosh.ai** , 
 | 09  | Enchanted Lanterns: Calculating the Sum of Wish Values    | **Array**,**Prefix Array**,**Suffix Array**, **Optimization**,**DSA**                               | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Enchanted%20Lanterns%3A%20Calculating%20the%20Sum%20of%20Wish%20Values.py)
-| 10  | Golden Pouch Challenge: Seed Sorting in Elora's Village    | **Sorting**, **Greedy**                               | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Golden_Pouch_Challenge_Seed_Sorting_in_Elora's_Village.py)|
-| 11  | IPL 2025 - The Secret Strategy                             | **Simulation**, **Strategy**                          | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/IPL%202025%20-%20The%20Secret%20Strategy.py)                                   |
-| 12  | Lexicographically Largest String with More D's             | **Greedy**, **String Manipulation**                   | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Lexicographically%20Largest%20String%20with%20More%20Di.py)                        |
-| 13  | Maximize Task Allocation With Batteries                    | **Greedy**, **Resource Allocation**                   | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Maximize%20Task%20Allocation%20With%20Batteries.py)
-| 13  | Maximizing Signal Strength: Help Me!!                    | **Greedy**, **Strategy**                   | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Maximizing%20Signal%20Strength%3A%20Help%20Me!!.py)|
-| 14  | Messenger's Mana                                           | **Dynamic Programming**, **Resource Management**      | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Messenger's%20Mana.py)                                              |
-| 15  | Operation Mercury                                          | **Simulation**, **Strategy**                          | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Operation%20Mercury.py)                                                        |
-| 16  | Optimal Energy Zone Allocation    | **Array**,**DSA**                               | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Optimal%20Energy%20Zone%20Allocation.py)
-
-| 13  | Prime-Cursed Path in the Fruitful Forest                   | **Graphs**, **Primes**, **Pathfinding**               | ★★★★☆      | [View](./Graphs/Prime-Cursed%20Path%20in%20the%20Fruitful%20Forest.py)                             |
-| 14  | Race to the Museum: Unstoppables and the Skill Spell Quest | **Graphs**, **Shortest Path**, **Dijkstra**           | ★★★★☆      | [View](./Graphs/Race%20to%20the%20Museum%3A%20Unstoppables%20and%20the%20Skill%20Spell%20Quest.py) |
-| 15  | Reverse Spiral Traversal with Prime Extraction             | **Matrix Traversal**, **Primes**                      | ★★★☆☆      | [View](./Matrix/Reverse%20Spiral%20Traversal%20with%20Prime%20Extraction.py)                       |
-| 16  | RoboLex's Dilemma: Safeguarding Instruction Stream         | **Simulation**, **String Processing**                 | ★★★☆☆      | [View](./Simulation/RoboLex's_Dilemma_Safeguarding_Instruction_Stream.py)                          |
-| 17  | Shubham's Nobel Warriors                                   | **Graphs**, **BFS/DFS**                               | ★★★☆☆      | [View](./Graphs/Shubham's%20Nobel%20Warriors.py)                      |
-| 18  | The Password of Techlandia                                 | **Strings**, **Hashing**                              | ★★☆☆☆      | [View](./Strings/The%20Password%20of%20Techlandia.py)                 |
-| 19  | The Shifting Mirrors Labyrinth                             | **Simulation**, **Matrix**                            | ★★★★☆      | [View](./Simulation/The%20Shifting%20Mirrors%20Labyrinth.py)          |
-| 20  | Unique Product Code Creation                               | **Strings**, **Combinatorics**                        | ★★★☆☆      | [View](./Strings/Unique%20Product%20Code%20Creation.py)               |
-| 21  | Unlocking the Crystal of Balance: Our Hero                 | **Dynamic Programming**, **Game Theory**              | ★★★★☆      | [View](./Dynamic%20Programming/Unlocking%20the%20Crystal%20of%20Balance%3A%20Our%20Hero.py)        |
-| 22  | Unveiling the Mystery: Revealing String's Secret           | **Strings**, **Pattern Matching**                     | ★★★☆☆      | [View](./Strings/Unveiling%20the%20Mystery%3A%20Revealing%20String's%20Secret.py)                  |
-| 24  | The Shifting Mirrors Labyrinth                             | **Simulation**, **Matrix**               | ★★★★☆     | [View](./Simulation/The%20Shifting%20Mirrors%20Labyrinth.py)        |
-| 25  | Unique Product Code Creation                               | **Strings**, **Combinatorics**           | ★★★☆☆     | [View](./Strings/Unique%20Product%20Code%20Creation.py)             |
-| 26  | Unlocking the Crystal of Balance: Our Hero                 | **Dynamic Programming**, **Game Theory** | ★★★★☆     | [View](./Dynamic%20Programming/Unlocking%20the%20Crystal%20of%20Balance%3A%20Our%20Hero.py) |
-| 27  | Unveiling the Mystery: Revealing String's Secret           | **Strings**, **Pattern Matching**        | ★★★☆☆     | [View](./Strings/Unveiling%20the%20Mystery%3A%20Revealing%20String's%20Secret.py) |
-| 28  | Zyphar-X Energy Overload                                   | **Simulation**, **Resource Management**  | ★★★★☆     | [View](./Simulation/Zyphar-X%20Energy%20Overload.py)                |
-| 29  | Allocate Maximum Workload                                  | **Greedy**, **Load Balancing**           | ★★★★☆     | [View](./Greedy/Allocate%20Maximum%20Workload.py)                   |
-| 30  | Operation Mercury                                          | **Simulation**, **Strategy**             | ★★★☆☆     | [View](./Simulation/Operation%20Mercury.py)                         |
-| 31  | Maximize Task Allocation With Batteries                    | **Greedy**, **Resource Allocation**      | ★★★★☆     | [View](./Greedy/Maximize%20Task%20Allocation%20With%20Batteries.py) |
-| 32  | Lexicographically Largest String with More D's             | **Greedy**, **String Manipulation**      | ★★★☆☆     | [View](./Greedy/Lexicographically%20Largest%20String%20with%20More%20Di.py) |
-| 33  | IPL 2025 - The Secret Strategy                             | **Simulation**, **Strategy**             | ★★★☆☆     | [View](./Simulation/IPL%202025%20-%20The%20Secret%20Strategy.py)    |
+| 10  | EEncrypted Bridge Protocols    | **DFS**,**Hashing**,**Traversals**, **String**,**Graph**                               | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Encrypted%20Bridge%20Protocols.py)     |
+| 11  | Golden Pouch Challenge: Seed Sorting in Elora's Village    | **Sorting**, **Greedy**                               | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Golden_Pouch_Challenge_Seed_Sorting_in_Elora's_Village.py)|
+| 12  | IPL 2025 - The Secret Strategy                             | **Simulation**, **Strategy**                          | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/IPL%202025%20-%20The%20Secret%20Strategy.py)                                   |
+| 13  | Lexicographically Largest String with More D's             | **Greedy**, **String Manipulation**                   | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Lexicographically%20Largest%20String%20with%20More%20Di.py)                        |
+| 14  | Maximize Task Allocation With Batteries                    | **Greedy**, **Resource Allocation**                   | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Maximize%20Task%20Allocation%20With%20Batteries.py)
+| 15  | Maximizing Signal Strength: Help Me!!                    | **Greedy**, **Strategy**                   | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Maximizing%20Signal%20Strength%3A%20Help%20Me!!.py)|
+| 16  | Messenger's Mana                                           | **Dynamic Programming**, **Resource Management**      | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Messenger's%20Mana.py)                                              |
+| 17  | Operation Mercury                                          | **Simulation**, **Strategy**                          | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Operation%20Mercury.py)                                                        |
+| 18  | Optimal Energy Zone Allocation    | **Array**,**DSA**                               | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Optimal%20Energy%20Zone%20Allocation.py)      |
+| 19  | Prime and Square Nexus                   | **Graphs**, **Primes**, **Pathfinding**               | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Prime%20and%20Square%20Nexus.py#L12)                             |
+| 20  | Prime-Cursed Path in the Fruitful Forest | **Arrays Manupulaation**, **Grid Traversal**, **DSA**           | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Prime-Cursed%20Path%20in%20the%20Fruitful%20Forest.py) |
+| 21  | Race to the Museum: Unstoppables and the Skill Spell Quest | **Graphs**, **Shortest Path**, **Dijkstra**           | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Race%20to%20the%20Museum%3A%20Unstoppables%20and%20the%20Skill%20Spell%20Quest.py) |
+| 22  | Reverse Spiral Traversal with Prime Extraction             | **Matrix Traversal**, **Primes**                      | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Reverse%20Spiral%20Traversal%20with%20Prime%20Extraction.py)                       |
+| 23  | RoboLex's Dilemma: Safeguarding Instruction Stream         | **Simulation**, **String Processing**                 | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/RoboLex's_Dilemma_Safeguarding_Instruction_Stream.py)                          |
+| 24  | Shubham's Nobel Warriors                                   | **Graphs**, **BFS/DFS**                               | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Shubham's%20Nobel%20Warriors.py)                      |
+| 25  | The Password of Techlandia                                 | **Strings**, **Hashing**                              | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/The%20Password%20of%20Techlandia.py)                 |
+| 26  | The Shifting Mirrors Labyrinth                             | **Simulation**, **Matrix**                            | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/The%20Shifting%20Mirrors%20Labyrinth.py)          |
+| 27  | Unique Product Code Creation                               | **Strings**, **Combinatorics**                        | ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Unique%20Product%20Code%20Creation.py)               |
+| 28  | Unlocking the Crystal of Balance: Our Hero                 | **Dynamic Programming**, **Game Theory**              | ★★★★☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Unlocking%20the%20Crystal%20of%20Balance%3A%20Our%20Hero.py)        |
+| 29  | Unveiling the Mystery: Revealing String's Secret           | **Strings**, **Pattern Matching**                     | ★★★☆☆      | [View](./Strings/Unveiling%20the%20Mystery%3A%20Revealing%20String's%20Secret.py)                  |
+| 30  | Zyphar-X Energy Overload                                   | **Simulation**, **Resource Management**  | ★★★★☆     | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Zyphar-X%20Energy%20Overload.py)                |
+| 31  | Blossomville Bee Battle: Lily vs. Rose!                                   | **Dynamic Programming**, **Game Theory**  | ★★☆☆☆     | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Blossomville%20Bee%20Battle%3A%20Lily%20vs.%20Rose!.py)                |
 
 ---
 
@@ -134,3 +127,57 @@ Made with 💻 & ❤️ by **Chanchal Chavhan**
 🎓 *Second Year – Electronic & Computer Engineering*
 
 ---
+
+## 🧠 Skills You'll Learn
+
+* ✅ Dynamic Programming
+* ✅ Graph Algorithms (DFS, BFS, Dijkstra)
+* ✅ Greedy Techniques
+* ✅ String Manipulation
+* ✅ Data Structures (Hashing, Trees, Union-Find)
+* ✅ Simulation-Based Problem Solving
+
+---
+
+## 🚀 Why This Repo?
+
+* 🏆 Interview Preparation for Top Tech Companies
+* 📚 Daily Problem Solving Habit
+* 💡 Real-World Inspired Coding Challenges
+* 🔗 Easy Navigation with Direct Solution Links
+
+---
+
+## 📌 How to Use
+
+1. Browse the table to pick a problem.
+2. Click on **View** to read the solution.
+3. Practice the logic and try solving before peeking at the code!
+4. Star ⭐ the repo if you find it helpful!
+
+---
+
+## 🙋‍♂️ Contributing
+
+If you'd like to:
+
+* Fix bugs 🐞
+* Add your own company-specific problems 💼
+* Enhance the README 📖
+
+Feel free to fork and raise a Pull Request!
+
+---
+
+## 📬 Connect With Me
+
+* 🔗 [LinkedIn](https://www.linkedin.com/in/chanchalchavhan)
+* 💻 [GitHub](https://github.com/CHANCHALCHAVHAN)
+* 📧 Email: *[chanchalchavhan.tech@gmail.com](mailto:chanchalchavhan.tech@gmail.com)*
+
+---
+
+> 🌱 *“Code every day not to impress, but to progress.”* – Chanchal Chavhan
+
+---
+
