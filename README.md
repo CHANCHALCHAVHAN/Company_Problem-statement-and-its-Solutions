@@ -86,6 +86,8 @@ Here are some coding problems with their respective topics and difficulty levels
 | 29  | Unveiling the Mystery: Revealing String's Secret           | **Strings**, **Pattern Matching**                     | ★★★☆☆      | [View](./Strings/Unveiling%20the%20Mystery%3A%20Revealing%20String's%20Secret.py)                  |
 | 30  | Zyphar-X Energy Overload                                   | **Simulation**, **Resource Management**  | ★★★★☆     | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Zyphar-X%20Energy%20Overload.py)                |
 | 31  | Blossomville Bee Battle: Lily vs. Rose!                                   | **Dynamic Programming**, **Game Theory**  | ★★☆☆☆     | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Blossomville%20Bee%20Battle%3A%20Lily%20vs.%20Rose!.py)                |
+| 31  | Master of Bitwise Operations                                   | **Dynamic Programming**, **Prefix Sum**  | ★★★★★     | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Master%20of%20Bitwise%20Operations.py)                | **Amazon** , **Adobe**|
+
 
 ---
 
