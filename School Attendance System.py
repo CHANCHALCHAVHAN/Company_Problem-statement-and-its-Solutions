@@ -54,21 +54,23 @@ Design
 '''
 #CODE:->
 def find_uncalled_students(N, A):
-    called_out = set()
-    
-    # Mark all called-out roll numbers
-    for roll_number in A:
-        called_out.add(roll_number)
-    
-    # Find students whose roll numbers were never called out
+    called_out = set()  # Set to track called roll numbers
+
+    for i in range(1, N + 1):
+        if i not in called_out:  # If the student's roll number has not been called
+            called_out.add(A[i - 1])  # Call out the roll number A[i]
+
+    # Find all roll numbers that are not in the called_out set
     uncalled_students = [i for i in range(1, N + 1) if i not in called_out]
-    
+
     return uncalled_students
 
-# Input handling
-N = int(input())  # Read the number of students
-A = list(map(int, input().split()))  # Read the list of roll numbers called out
+# Input reading
+N = int(input())
+A = list(map(int, input().split()))
 
-# Function call and result output
+# Get the result
 result = find_uncalled_students(N, A)
-print(*result)  # Print the result in space-separated format
+
+# Print the result
+print(" ".join(map(str, result)))
