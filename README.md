@@ -46,6 +46,7 @@ This repository is built to **guide and inspire students** preparing for coding 
 - Matrix Traversal
 - Load Balancing
 - Game Theory
+- GCD
 - String Processing
 ---
 
@@ -94,7 +95,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 34 |  Fix Sum       | **Sorting** , **Binary Search** , **Arrays** , **Dynamic Programmong** | ★★★☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Fix%20Sum.py) | **Amazon** , **Microsoft** , **Google** | 
 | 35 | Plus-Minus Matchup | **Array** , **Math** , **String Manipulation** , **Strings** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Plus-Minus%20Matchup.py) | **Zoho** , **VMware** | 
 | 36 | Smiley Balance Counter | **String** , **Greedy** , **Stack** , **Parsing** ,**Simulation** , **Data Structures** , **Strings** | ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Smiley%20Balance%20Counter.py) | **ZScaler**, **Cisco**, **TCS Digital**, **Capgemini Exceller**|
-
+| 37 | Resilient Towers | **GCD , Greedy , array manipulation , Optimization , Simulation , Mathematics, Algorithms** | ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/new/main) |
 
 ---
 
