@@ -96,7 +96,9 @@ Here are some coding problems with their respective topics and difficulty levels
 | 35 | Plus-Minus Matchup | **Array** , **Math** , **String Manipulation** , **Strings** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Plus-Minus%20Matchup.py) | **Zoho** , **VMware** | 
 | 36 | Smiley Balance Counter | **String** , **Greedy** , **Stack** , **Parsing** ,**Simulation** , **Data Structures** , **Strings** | ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Smiley%20Balance%20Counter.py) | **ZScaler**, **Cisco**, **TCS Digital**, **Capgemini Exceller**|
 | 37 | Resilient Towers | **GCD , Greedy , array manipulation , Optimization , Simulation , Mathematics, Algorithms** | ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/new/main) |
-| 38 | Teleporting Strings Through Prime Portals | **Greedy , Mathematics, Greedy , Simulation , Sorting , String , String Manipulation , greedy** | ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Teleporting%20Strings%20Through%20Prime%20Portals.py) |
+| 38 | Teleporting Strings Through Prime Portals | **Greedy , Mathematics, Greedy , Simulation , Sorting , String , String Manipulation , greedy** | ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Teleporting%20Strings%20Through%20Prime%20Portals.py) | 
+| 39 | The Quantum Factory | **Graph , DFS , BFS , Algorithms, Implementation , Data Structure , Graph Theory*** | ★★★★★  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/new/main) | **Meesho , Adobe , Goldman Sachs** | 
+
 ---
 
 > *More problems being added daily – keep checking!*
