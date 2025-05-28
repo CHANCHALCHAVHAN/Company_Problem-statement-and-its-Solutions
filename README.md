@@ -98,6 +98,8 @@ Here are some coding problems with their respective topics and difficulty levels
 | 37 | Resilient Towers | **GCD , Greedy , array manipulation , Optimization , Simulation , Mathematics, Algorithms** | ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/new/main) |
 | 38 | Teleporting Strings Through Prime Portals | **Greedy , Mathematics, Greedy , Simulation , Sorting , String , String Manipulation , greedy** | ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Teleporting%20Strings%20Through%20Prime%20Portals.py) | 
 | 39 | The Quantum Factory | **Graph , DFS , BFS , Algorithms, Implementation , Data Structure , Graph Theory*** | ★★★★★  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/new/main) | **Meesho , Adobe , Goldman Sachs** | 
+| 40 | Encrypted Chain Collapse | **String Manipulation , Greedy Algorithm , Simulation , Stack , Data Structures , Two Pointers , Strings**| ★☆☆☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/edit/main/Encrypted%20Chain%20Collapse.py) | 
+| 41 | Castle Siege | **Binary Search , Graph , BFS , Matrix , Shortest Path, Graph** | ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Castle%20Siege.py)| 
 
 ---
 
