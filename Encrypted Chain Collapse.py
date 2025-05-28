@@ -98,3 +98,25 @@ Two Pointers
 Strings
 '''
 #Code:=>
+def get_energy(ch):
+    if 'a' <= ch <= 'z':
+        return ord(ch) - ord('a') + 1
+    elif '0' <= ch <= '9':
+        return int(ch) * 10
+    return None
+
+def collapse_chain(s):
+    stack = []
+    
+    for ch in s:
+        energy = get_energy(ch)
+        if stack and get_energy(stack[-1]) == energy:
+            stack.pop()
+        else:
+            stack.append(ch)
+    
+    return "".join(stack) if stack else "-1"
+
+# Example usage:
+s = input().strip()
+print(collapse_chain(s))
