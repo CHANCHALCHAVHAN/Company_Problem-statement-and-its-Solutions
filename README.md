@@ -103,8 +103,8 @@ Here are some coding problems with their respective topics and difficulty levels
 | 42 | Maximum Weighted Symmetric Partition | **palindrome , Memoization , Partitioning , String , Palindromic Structure , Dynamic Programming** | ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Maximizing%20Signal%20Strength%3A%20Help%20Me!!.py) | For Practice |
 | 43 | Sid and His Double Prime Money | **Data Structures , Mathematics , Algorithms , Arrays** | ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Sid%20and%20His%20Double%20Prime%20Money.py) | **Adobe , Flipkart , Uber , HackerRank / HackerEarth** |
 | 44 | Longest Substring with Distinct Characters and a Give | **String Manipulation , Sliding Window , Substring , ASCII , Data Structure , Strings** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Longest%20Substring%20with%20Distinct%20Characters%20and%20a%20Give.py)| **Amazon , Google**|
-| 45 | Power Cut Panic | **Graph Theory , BFS , Simulation , Graph** | ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Power%20Cut%20Panic.py) |
-
+| 45 | Power Cut Panic | **Graph Theory , BFS , Simulation , Graph** | ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Power%20Cut%20Panic.py) | |
+| 46 | The Cursed Maze | **BFS , Dynamic Programming , Grid , Graph**  |  ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/The%20Cursed%20Maze.py) | ***Microsoft, and Atlassian*** |
 ---
 
 > *More problems being added daily – keep checking!*
