@@ -48,6 +48,7 @@ This repository is built to **guide and inspire students** preparing for coding 
 - Game Theory
 - GCD
 - String Processing
+- Tarjan's algorithm
 ---
 
 ## 🗂️ Table of Problems
