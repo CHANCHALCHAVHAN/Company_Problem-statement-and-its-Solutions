@@ -105,6 +105,8 @@ Here are some coding problems with their respective topics and difficulty levels
 | 44 | Longest Substring with Distinct Characters and a Give | **String Manipulation , Sliding Window , Substring , ASCII , Data Structure , Strings** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Longest%20Substring%20with%20Distinct%20Characters%20and%20a%20Give.py)| **Amazon , Google**|
 | 45 | Power Cut Panic | **Graph Theory , BFS , Simulation , Graph** | ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Power%20Cut%20Panic.py) | |
 | 46 | The Cursed Maze | **BFS , Dynamic Programming , Grid , Graph**  |  ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/The%20Cursed%20Maze.py) | ***Microsoft, and Atlassian*** |
+| 47 | Circle of Trust | **DFS , Tarjan's algorithm , Graph** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Circle%20of%20Trust.py) | ***Directi ,  Adobe*** |
+
 ---
 
 > *More problems being added daily – keep checking!*
