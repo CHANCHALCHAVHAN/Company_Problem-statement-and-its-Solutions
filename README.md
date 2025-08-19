@@ -108,6 +108,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 46 | The Cursed Maze | **BFS , Dynamic Programming , Grid , Graph**  |  ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/The%20Cursed%20Maze.py) | ***Microsoft, and Atlassian*** |
 | 47 | Circle of Trust | **DFS , Tarjan's algorithm , Graph** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Circle%20of%20Trust.py) | ***Directi ,  Adobe*** |
 | 48 |  Archan loves median | **Heap,PriorityQueue ,Sorting** | ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Archan%20loves%20median.cpp) | ***Indeed , Accenture,OYO Rooms*** |
+| 49 |  Assembly Line | **Sorting,Searching,Binary Search** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Assembly%20Line.cpp) | ***Coursera,MakeMyTrip*** |
 
 ---
 
