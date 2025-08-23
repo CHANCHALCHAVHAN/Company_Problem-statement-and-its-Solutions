@@ -1,0 +1,158 @@
+'''
+PROBLEM STATEEMNET
+Problem Statement
+In the grand Talent Show, there are N performers arranged in a line (indexed from 0 to n–1). Each performer has a talent rating given in the array arr[]. The show director must decide the order in which performers exit the stage. When the i-th performer exits, you gain a score calculated as follows:
+
+Let L be the rating of the performer immediately to the left of performer i. If there is no performer on the left, assume L = 1.
+
+Let R be the rating of the performer immediately to the right of performer i. If there is no performer on the right, assume R = 1.
+
+The base score for removing performer i is:
+(L + 2) * arr[i] * (R + 2)
+
+Additionally, if arr[i] is a prime number, you earn a bonus equal to arr[i].
+
+Once a performer is removed, the remaining performers shift together (closing the gap), and the scores for future removals are computed using the updated neighbors.
+
+Your task is to determine the maximum total score you can achieve by optimally choosing the order in which performers exit the stage.
+
+Input Format
+The first line contains an integer n, the number of performers.
+
+The second line contains n space-separated integers representing the ratings in the array arr[].
+
+Output Format
+Print a single integer—the maximum total score obtainable.
+
+Constraints
+1 ≤ N ≤ 300
+
+0 ≤ arr[i] ≤ 100
+
+Sample Testcase 0
+Testcase Input
+4
+3 5 2 8
+Testcase Output
+562
+Explanation
+Remove performer with rating 2 (index 2):
+Neighbors: 5 (left) and 8 (right)
+Base score = (5 + 2) * 2 * (8 + 2) = 7 * 2 * 10 = 140
+Bonus = 2 (since 2 is prime)
+Total = 140 + 2 = 142
+New lineup: [3, 5, 8]
+
+Remove performer with rating 5 (now index 1):
+Neighbors: 3 (left) and 8 (right)
+Base score = (3 + 2) * 5 * (8 + 2) = 5 * 5 * 10 = 250
+Bonus = 5 (since 5 is prime)
+Total = 250 + 5 = 255
+New lineup: [3, 8]
+
+
+Remove performer with rating 3 (now index 0):
+Neighbors: implicit 1 (left) and 8 (right)
+Base score = (1 + 2) * 3 * (8 + 2) = 3 * 3 * 10 = 90
+Bonus = 3 (since 3 is prime)
+Total = 90 + 3 = 93
+New lineup: [8]
+
+
+Remove performer with rating 8:Neighbors: implicit 1 on both sides
+Base score = (1 + 2) * 8 * (1 + 2) = 3 * 8 * 3 = 72
+Bonus = 0 (8 is not prime)
+Total = 72
+
+
+Grand Total = 142 + 255 + 93 + 72 = 562
+
+Sample Testcase 1
+Testcase Input
+2
+5 10
+Testcase Output
+275
+Explanation
+Remove performer with rating 5 (index 0):
+Neighbors: implicit 1 (left) and 10 (right)
+Base score = (1 + 2) * 5 * (10 + 2) = 3 * 5 * 12 = 180
+Bonus = 5 (5 is prime)
+Total = 180 + 5 = 185
+New lineup: [10]
+
+Remove performer with rating 10:
+Neighbors: implicit 1 on both sides
+Base score = (1 + 2) * 10 * (1 + 2) = 3 * 10 * 3 = 90
+Bonus = 0 (10 is not prime)
+Total = 90
+
+
+Grand Total = 185 + 90 = 275
+
+Companies
+Topics
+Dynamic Programming
+Data structure and algorithm
+Arrays
+'''
+
+
+
+
+CODE
+import sys
+
+def sieve(maxv):
+    is_prime = [False] * (maxv + 1)
+    if maxv >= 2:
+        is_prime[2] = True
+    for p in range(3, maxv+1):
+        is_prime[p] = True
+    p = 2
+    while p * p <= maxv:
+        if is_prime[p]:
+            for q in range(p*p, maxv+1, p):
+                is_prime[q] = False
+        p += 1
+    # Handle 0/1
+    if maxv >= 0:
+        is_prime[0] = False
+    if maxv >= 1:
+        is_prime[1] = False
+    return is_prime
+
+def main():
+    data = list(map(int, sys.stdin.read().strip().split()))
+    if not data:
+        return
+    n = data[0]
+    arr = data[1:1+n]
+
+    # Extend with sentinel 1 at both ends
+    a = [1] + arr[:] + [1]
+    # dp[l][r] for l,r in 1..n (indices in a)
+    dp = [[0] * (n + 2) for _ in range(n + 2)]
+
+    is_prime = sieve(100)  # arr[i] <= 100
+
+    # length = length of subarray we are removing
+    for length in range(1, n + 1):
+        for l in range(1, n - length + 2):
+            r = l + length - 1
+            best = 0
+            left_val = a[l - 1]
+            right_val = a[r + 1]
+            # try choosing k as the last removed in [l..r]
+            for k in range(l, r + 1):
+                base = (left_val + 2) * a[k] * (right_val + 2)
+                bonus = a[k] if is_prime[a[k]] else 0
+                val = dp[l][k - 1] + dp[k + 1][r] + base + bonus
+                if val > best:
+                    best = val
+            dp[l][r] = best
+
+    print(dp[1][n])
+
+if __name__ == "__main__":
+    main()
