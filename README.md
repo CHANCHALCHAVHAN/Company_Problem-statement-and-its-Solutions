@@ -12,41 +12,44 @@ This repository is built to **guide and inspire students** preparing for coding 
 
 ## 📚 Topics Covered
 
-- Greedy
-- Simulation
-- Strategy
-- Graphs
-- Shortest Path
-- Dijkstra
-- Bit Manipulation
-- Binary Logic
-- Hashing
-- Lists
-- Frequency Count
-- Number Theory
-- Primes
-- Squares
-- BFS/DFS
-- Math
-- Dynamic Programming
-- Path Counting
-- Parsing
-- Queries
-- Prefix Sum
 - Arrays
-- Sorting
-- Stack
-- Resource Allocation
-- Signal Propagation
-- Resource Management
-- String Manipulation
+- Backtracking
+- BFS/DFS
+- Binary Logic
+- Bit Manipulation
+- Bitmask
 - Combinatorics
-- Pattern Matching
-- Matrix
-- Matrix Traversal
-- Load Balancing
+- Dijkstra
+- Dynamic Programming
+- Frequency Count
 - Game Theory
 - GCD
+- Graphs
+- Greedy
+- Hashing
+- Lists
+- Load Balancing
+- Math
+- Matrix
+- Matrix Traversal
+- Memoization
+- Number Theory
+- Optimization
+- Parsing
+- Path Counting
+- Pattern Matching
+- Prefix Sum
+- Primes
+- Queries
+- Resource Allocation
+- Resource Management
+- Signal Propagation
+- Simulation
+- Sorting
+- Squares
+- Stack
+- Strategy
+- String Manipulation
 - String Processing
 - Tarjan's algorithm
 ---
@@ -111,6 +114,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 49 |  Assembly Line | **Sorting,Searching,Binary Search** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Assembly%20Line.cpp) | ***Coursera,MakeMyTrip*** |
 | 50 |  Symbolic Stability of a Message | **String Manipulation,Frequency Counting,Hashmap,String Validation,Greedy,Set Operations,Strings** | ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Symbolic%20Stability%20of%20a%20Message.cpp) | ***HackerRank,unstop*** |
 | 51 |  Talent Burst | **Dynamic Programming,Data structure and algorithm,Arrays** | ★☆☆☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Talent%20Burst.python) | ***unstop*** |
+| 52 |  Optimal Router Switching in a Smart Home | **Dynamic Programming,Graph,DFS,Memoization,Optimization,Backtracking,Bitmask Graph** | ★☆☆☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Optimal%20Router%20Switching%20in%20a%20Smart%20Home.cpp) | |
 
 
 ---
