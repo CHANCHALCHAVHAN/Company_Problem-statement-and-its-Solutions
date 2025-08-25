@@ -117,6 +117,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 52 |  Optimal Router Switching in a Smart Home | **Dynamic Programming,Graph,DFS,Memoization,Optimization,Backtracking,Bitmask Graph** | ★☆☆☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Optimal%20Router%20Switching%20in%20a%20Smart%20Home.cpp) | |
 | 53 |  Filo Numbers | **Math,Number Theory,Array** | ★★★☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Filo%20Numbers.cpp) |***Zoho,Wipro*** |
 | 54 |   Valid Bracket Substring | **Stack,Stack** | ★★★☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Valid%20Bracket%20Substring.cpp) |***TCS,Infosys*** |
+| 54 | Rabbit & Tortoise:The Time Warp case | **Simulation,Greedy,Array,Game Theory,Conditionals,Data Structure,GameTheory** | ★★☆☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Rabbit%20and%20Tortoise%3Athe%20time%20warp%20case.cpp) | |
 
 
 ---
