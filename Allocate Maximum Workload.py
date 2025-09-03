@@ -1,5 +1,6 @@
 '''
-Problem Statement
+#PROBLEM STATEMENT
+
 You are given an array tasks[] of integers, where each element tasks[i] represents the time (in minutes) required to complete the i-th task. You also have an integer W representing the number of workers available. The task is to allocate tasks to each worker such that:
 
 Each worker gets at least one task.
