@@ -122,6 +122,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 55 | Rabbit & Tortoise:The Time Warp case | **Simulation,Greedy,Array,Game Theory,Conditionals,Data Structure,GameTheory** | ★★☆☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Rabbit%20and%20Tortoise%3Athe%20time%20warp%20case.cpp) ||
 | 56 | Meet in a City | **Minimum Spanning Tree ,Graph ,Data Structure,Graph** | ★★☆☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Meet%20In%20a%20city.cpp) |***Meesho,Amazon,PwC***|
 | 57 | Repeating Ones | **Strings,Hash Table,Sliding Window,Math** | ★★★☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Repeating%20Ones.cpp) |***PwC***|
+| 58 | Tree Parity | **Binary Tree,DFS,BFS,Recursion,Tree** | ★★★★★  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Tree%20Parity.py) |***Amazon,Airbnb,Meesho***|
 
 ---
 
