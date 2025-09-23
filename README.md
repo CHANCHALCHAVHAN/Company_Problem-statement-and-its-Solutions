@@ -29,6 +29,7 @@ This repository is built to **guide and inspire students** preparing for coding 
 - Hashing
 - Hash Table
 - Lists
+- lazy-propagation
 - Load Balancing
 - Math
 - Matrix
@@ -52,6 +53,7 @@ This repository is built to **guide and inspire students** preparing for coding 
 - sliding window
 - Strategy
 - String Manipulation
+- Segment Trees with Lazy Propagation
 - String Processing
 - Tarjan's algorithm
 ---
@@ -123,6 +125,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 56 | Meet in a City | **Minimum Spanning Tree ,Graph ,Data Structure,Graph** | ★★☆☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Meet%20In%20a%20city.cpp) |***Meesho,Amazon,PwC***|
 | 57 | Repeating Ones | **Strings,Hash Table,Sliding Window,Math** | ★★★☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Repeating%20Ones.cpp) |***PwC***|
 | 58 | Tree Parity | **Binary Tree,DFS,BFS,Recursion,Tree** | ★★★★★  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Tree%20Parity.py) |***Amazon,Airbnb,Meesho***|
+| 59 | Turbine Flow Disruption | **lazy-propagation,Segment Trees with Lazy Propagation** | ★★★★★  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Turbine%20Flow%20Disruption.cpp) |***Juspay,Amazon,Meesho***|
 
 ---
 
