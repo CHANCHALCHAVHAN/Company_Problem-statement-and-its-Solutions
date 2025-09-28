@@ -129,6 +129,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 60 | Turtle Colony Rescue Mission | **Graphs,Breadth-First Search,Bitmask,Shortest Path,Backtracking,Data Structure,Graph Theory** | ★★★★★  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Turtle%20Colony%20Rescue%20Mission.py) ||
 | 60 | Toy Collector's Budget Challenge | **Dynamic Programming,Knapsack Problem,Optimization,Greedy,Combinatorics,Data Structure,Dynamic Programming** | ★★★☆☆  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Toy%20Collector's%20Budget%20Challenge.cpp) ||
 | 61 |Share all Chocolates | **Subsets,Dynamic Programming,Array** | ★★★☆☆  | [View](http://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Share%20all%20Chocolates.cpp) |***Oracle , Walmart***|
+| 62 |Sudoku Solver | **Recursion,Backtracking,Matrix** | ★★★★★  | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/sudoku%20solver.py) |***DoorDash,Intuit,Nutanix***|
 
 
 ---
