@@ -132,6 +132,8 @@ Here are some coding problems with their respective topics and difficulty levels
 | 62  | Sudoku Solver                                              | **DoorDash**, **Intuit**, **Nutanix**                                                                       | **Recursion**, **Backtracking**, **Matrix**           | ★★★★★      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/sudoku%20solver.py) |
 | 63  | Inversion Count                                            | **Zoho**, **Intel**, **Facebook**                                                                           | **Math**, **Bit-Manipulation**                        | ★★☆☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Inversion%20Count.cpp) |
 | 64  | Maximum Length Subsequence                                            |***nvidia,roblox,Juspay***                                                                        | **Hashing,Hash Map,Unordered map,Strings**| ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Maximum%20Length%20Subsequence.cpp) |
+| 65  | Magical Vowels | | **Stack,Strings**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Magical%20Vowels.py) |
+| 66  | Range Square | | **Unordered Set,Pointers,Linked List**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Range%20Square.cpp) |
 
 
 ---
