@@ -134,6 +134,8 @@ Here are some coding problems with their respective topics and difficulty levels
 | 64  | Maximum Length Subsequence                                            |***nvidia,roblox,Juspay***                                                                        | **Hashing,Hash Map,Unordered map,Strings**| ★★★☆☆      | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Maximum%20Length%20Subsequence.cpp) |
 | 65  | Magical Vowels | | **Stack,Strings**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Magical%20Vowels.py) |
 | 66  | Range Square | | **Unordered Set,Pointers,Linked List**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Range%20Square.cpp) |
+| 67  | Counting Problems |***Flipkart,Amazon*** | **Hash Map Hashing,Counting,Priority Queue**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Counting%20Problem.cpp) |
+| 68 | Coin flip Game Problem |***Juspay,Cisco,Blinkit*** | **Modular Arithmetic,Math**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Coin%20flip%20Game%20Problem.cpp) |
 
 
 ---
