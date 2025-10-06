@@ -26,8 +26,11 @@ This repository is built to **guide and inspire students** preparing for coding 
 - GCD
 - Graphs
 - Greedy
+- Greedy Algorithms
+- GreedyScheduling
 - Hashing
 - Hash Table
+- Interval Problems
 - Lists
 - lazy-propagation
 - Load Balancing
@@ -136,6 +139,9 @@ Here are some coding problems with their respective topics and difficulty levels
 | 66  | Range Square | | **Unordered Set,Pointers,Linked List**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Range%20Square.cpp) |
 | 67  | Counting Problems |***Flipkart,Amazon*** | **Hash Map Hashing,Counting,Priority Queue**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Counting%20Problem.cpp) |
 | 68 | Coin flip Game Problem |***Juspay,Cisco,Blinkit*** | **Modular Arithmetic,Math**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Coin%20flip%20Game%20Problem.cpp) |
+| 69 | SmartStock Device Bundler | | **CombinatoricsBacktracking,Subsets,Brute-force,Array,Data Structure,Backtracking**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/SmartStock%20Device%20Bundler.cpp) |
+| 70 | Smart AC Energy Saver | | **GreedyScheduling,Simulation,Array,Interval Problems,array manipulation,OptimizationGreedy Algorithms**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Smart%20AC%20Energy%20Saver.cpp) |
+
 
 
 ---
