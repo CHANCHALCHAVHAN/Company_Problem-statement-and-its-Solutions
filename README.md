@@ -141,6 +141,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 68 | Coin flip Game Problem |***Juspay,Cisco,Blinkit*** | **Modular Arithmetic,Math**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Coin%20flip%20Game%20Problem.cpp) |
 | 69 | SmartStock Device Bundler | | **CombinatoricsBacktracking,Subsets,Brute-force,Array,Data Structure,Backtracking**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/SmartStock%20Device%20Bundler.cpp) |
 | 70 | Smart AC Energy Saver | | **GreedyScheduling,Simulation,Array,Interval Problems,array manipulation,OptimizationGreedy Algorithms**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Smart%20AC%20Energy%20Saver.cpp) |
+| 70 | Partition Array into K Subsets with Equal Sum | | **Backtracking,Data structure and algorithm,Dynamic Programming**| ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Partition%20Array%20into%20K%20Subsets%20with%20Equal%20Sum.cpp) |
 
 
 
