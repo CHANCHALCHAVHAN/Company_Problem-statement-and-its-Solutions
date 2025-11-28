@@ -148,7 +148,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 75  | ‎Answer Queries |***Adobe,IBM,Visa,Twitter,Yahoo,Indeed,Pinterest*** | **Array,Range Queries,Linked List,Binary Tree,Tree**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/f65dbd866a10e21d96802a5702543ade4f70c719) |
 | 76  | The Cave of Secrets: The Portal of Light and Shadow |***Amazon,Adobe,Goldman Sachs*** | **String Manipulation,Greedy Algorithm,Data Structures & Algorithms**| ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/89b5b267a58623fce50e0bf09a52b1457f770af4#diff-9b28ba8d5b658aff5a30a408ea0907ecac6bfa8da88f64a9862953e7e76cbb4e) |
 | 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
-| 67  | Counting Problems |***Flipkart,Amazon*** | **Hash Map Hashing,Counting,Priority Queue**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Counting%20Problem.cpp) |
+| 78  | Book Allocation problem |***Google*** | **Binary Search**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Book%20Allocation%20problem.cpp) |
 
 
 
