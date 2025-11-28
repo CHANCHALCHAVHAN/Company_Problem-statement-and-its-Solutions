@@ -146,8 +146,8 @@ Here are some coding problems with their respective topics and difficulty levels
 | 73  | Sky diving |***Microsoft,Amazon*** | **Math,Dynamic Programming,Recursion**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/f961fd554f8200c130779415d601b642e697923d/Sky%20diving.cpp) |
 | 74  | ‎Who won |***Flipkart,Microsoft*** | **Math,Game Theory,Matrix**| ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/8f67be1a3322c598dcd17e9a4e4c591a01c3decb) |
 | 75  | ‎Answer Queries |***Adobe,IBM,Visa,Twitter,Yahoo,Indeed,Pinterest*** | **Array,Range Queries,Linked List,Binary Tree,Tree**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/f65dbd866a10e21d96802a5702543ade4f70c719) |
-| 67  | Counting Problems |***Flipkart,Amazon*** | **Hash Map Hashing,Counting,Priority Queue**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Counting%20Problem.cpp) |
-| 67  | Counting Problems |***Flipkart,Amazon*** | **Hash Map Hashing,Counting,Priority Queue**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Counting%20Problem.cpp) |
+| 76  | The Cave of Secrets: The Portal of Light and Shadow |***Amazon,Adobe,Goldman Sachs*** | **String Manipulation,Greedy Algorithm,Data Structures & Algorithms**| ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/89b5b267a58623fce50e0bf09a52b1457f770af4#diff-9b28ba8d5b658aff5a30a408ea0907ecac6bfa8da88f64a9862953e7e76cbb4e) |
+| 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
 | 67  | Counting Problems |***Flipkart,Amazon*** | **Hash Map Hashing,Counting,Priority Queue**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Counting%20Problem.cpp) |
 
 
