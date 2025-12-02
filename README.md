@@ -151,6 +151,7 @@ Here are some coding problems with their respective topics and difficulty levels
 | 78  | Book Allocation problem |***Google*** | **Binary Search**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Book%20Allocation%20problem.cpp) |
 | 79  | Painter's Partition Problem |***Google,PayPal*** | **Binary Search**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Painter's%20Partition%20Problem.cpp) |
 | 79  | Aggressive Cows |***Google*** | **Binary Search**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Aggressive%20Cows.cpp) |
+|80  | Remove Element || **Itinery Search space**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Remove%20Element.cpp) |
 
 
 
