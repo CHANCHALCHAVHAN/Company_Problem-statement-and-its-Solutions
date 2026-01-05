@@ -161,8 +161,8 @@ Here are some coding problems with their respective topics and difficulty levels
 | 87  | Water Dam Release Optimization | | **Greedy Algorithm,Simulation,Math,Prefix Handling,Array,Data Structure,Greedy Algorithms**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/3f58d623c67561c111e17a6422885fe37b44dda0/Water%20Dam%20Release%20Optimization.cpp) |
 | 88  | Subterranean Expedition | | **Path Finding,Backtracking,Dynamic,Programming,Graph,Depth-First Search,Breadth-First Search**| ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/5f0230bb108684ba5590a6ce44ed4a54281f5447/Subterranean%20Expedition.cpp) |
 | 89  | Resilient Towers || **GCD.Greedy,array manipulation,Optimization,Simulation,Mathematics, Algorithms**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/a921ad7cd907ec1b33125311b8ad45d3443e1ff5/Resilient%20Towers.cpp) |
-| 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
-| 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
+| 90  | Teleporting Strings Through Prime Portals |***Juspay,Mastercard,Infosys*** | **Greedy,Mathematics, Greedy,Simulation,Sorting,String,String,Manipulation,greedy**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/cb932e32f22b3aed2f71797dd958cf43649e9d05/Teleporting%20Strings%20Through%20Prime%20Portals.cpp) |
+| 77  | Alien Toys |***Juspay,Mastercard,Infosys*** | **Greedy,Mathematics, Greedy,Simulation,Sorting,String,String,Manipulation,greedy**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/cb932e32f22b3aed2f71797dd958cf43649e9d05/Teleporting%20Strings%20Through%20Prime%20Portals.cpp) |
 
 
 
