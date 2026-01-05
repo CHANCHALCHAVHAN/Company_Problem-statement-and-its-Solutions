@@ -152,8 +152,17 @@ Here are some coding problems with their respective topics and difficulty levels
 | 79  | Painter's Partition Problem |***Google,PayPal*** | **Binary Search**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Painter's%20Partition%20Problem.cpp) |
 | 79  | Aggressive Cows |***Google*** | **Binary Search**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Aggressive%20Cows.cpp) |
 |80  | Remove Element || **Itinery Search space**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/main/Remove%20Element.cpp) |
-
-
+|81  | Find the Index of the First Occurrence in a String || **Search , String operations**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/cca105cba98f95162d619ed4645e5c57e5687cd4/Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.cpp) |
+| 82  | Reverse Spiral Traversal with Prime Extraction |***Amazon,Mastercard*** | **Recursion,Mathematical Calculations,Matrix**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/cca105cba98f95162d619ed4645e5c57e5687cd4/Reverse%20Spiral%20Traversal%20with%20Prime%20Extraction.py) |
+| 83  | Monkey’s Balanced Leap | | **Graph,BFS,Dynamic Programming,Memoization,Path Finding,Backtracking,Array,Graph Algorithm,Dynamic Programming**| ★★★★☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/df655ac3342352c136f73e6cc9398fe4e47a0d9c/Monkey%E2%80%99s%20Balanced%20Leap.cpp) |
+| 84  | Mountain Path Optimization || **Dynamic Programming,Greedy,Array,minimum cost flow,Math,Data Structure,Dynamic Programming**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
+| 85 | Time-Traveling Treewalkers | | **Dynamic Programming,Greedy,Graph Traversal- DFS,Backtracking,Simulation,Tree,Breadth-First Search,Depth-First Search**| ★☆☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/53eecf3ee8a21bf039d6777333c143bfdc5d58da/Time-Traveling%20Treewalkers.cpp) |
+| 86  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
+| 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
+| 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
+| 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
+| 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
+| 77  | Alien Toys |***Amazon,HCL,Zoho,Mastercard*** | **Sliding Window,HashTable**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/5ae6952e1f7b358c04d93110ecd97bb0ac180742) |
 
 
 
