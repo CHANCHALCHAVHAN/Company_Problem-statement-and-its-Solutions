@@ -68,31 +68,29 @@ int main() {
     string s;
     cin >> s;
 
-    int ans = -1;
+    int maxLen = -1;
 
-    for (int l = 0; l < N; l++) {
-        vector<int> freq(26, 0);
+    // Try all substrings starting at i
+    for (int i = 0; i < N; i++) {
+        vector<bool> used(26, false);
 
-        for (int r = l; r < N; r++) {
-            // If duplicate character found, break
-            if (freq[s[r] - 'a'] > 0)
-                break;
+        for (int j = i; j < N; j++) {
+            int idx = s[j] - 'a';
 
-            freq[s[r] - 'a']++;
+            // If character repeats, stop expanding
+            if (used[idx]) break;
 
-            // Check ASCII difference condition
-            int diff = abs(s[l] - s[r]);
-            if (diff == D) {
-                ans = max(ans, r - l + 1);
+            used[idx] = true;
+
+            // Check ASCII difference between first and last character
+            if (abs(s[i] - s[j]) == D) {
+                maxLen = max(maxLen, j - i + 1);
             }
         }
     }
 
-    // If no valid substring found
-    if (ans == -1)
-        cout << 0 << endl;
-    else
-        cout << ans << endl;
+    // Print result (-1 if no valid substring)
+    cout << maxLen << endl;
 
     return 0;
 }
