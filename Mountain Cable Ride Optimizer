@@ -1,0 +1,97 @@
+/*
+Problem Statement
+In the scenic mountain region of Xandora, a series of N mountain stations are arranged in a straight line from west to east. Each station is located at a specific altitude above sea level.
+
+Tourists can travel only eastward (i.e., to a station with a higher index) using cable rides that connect any station i to another station j (i < j) if and only if the altitude at station j is strictly higher than at station i.
+
+However, to limit the environmental impact, each tourist is allowed to take at most K cable rides from the starting station.
+
+Your task is to help determine the maximum total altitude gain a tourist can achieve by choosing up to K eastward cable rides starting from any station.
+
+Input Format
+First line contains two integers N and K
+
+Second line: N integers H₁, H₂, ..., Hₙ
+
+Output Format
+Print the maximum altitude gain possible with at most K eastward cable rides.
+
+Constraints
+1 ≤ N ≤ 500
+
+1 ≤ K ≤ 100
+
+1 ≤ A[i] ≤ 10^9
+
+Sample Testcase 0
+Testcase Input
+6 2
+100 180 260 310 40 535
+Testcase Output
+495
+Explanation
+Best ride: 40 → 535 = gain of 495
+
+
+Splitting into 2 rides like 100→310 (210) + anything else won't exceed 495
+
+
+So, maximum gain = 495
+
+Sample Testcase 1
+Testcase Input
+5 2
+10 20 30 40 50
+Testcase Output
+40
+Explanation
+You can do at most 2 rides.
+
+
+One possible best ride: 10 → 50, gain = 50 - 10 = 40
+
+
+Other splits like 10→30 (20) and 30→50 (20) also total 40
+
+
+So, maximum gain = 40
+
+Companies
+Topics
+Dynamic Programming
+Greedy
+Recursion
+2D array
+Optimization
+subsequences
+Dynamic Programming
+*/
+
+#include <iostream>
+#include <vector>
+
+int max_altitude_gain(int N, int K, std::vector<int>& heights) {
+    /* Write your logic here. */
+    int max_distance = 0;
+    for(int i=0 ; i< N ; i++){
+        for(int j=i+1 ; j< N ; j++){
+            if((heights[j] - heights[i])> max_distance){
+                max_distance = heights[j]-heights[i];
+            }
+        }
+    }
+
+    return max_distance;
+}
+
+int main() {
+    int N, K;
+    std::cin >> N >> K;
+    std::vector<int> heights(N);
+    for (int i = 0; i < N; ++i) {
+        std::cin >> heights[i];
+    }
+    int result = max_altitude_gain(N, K, heights);
+    std::cout << result << std::endl;
+    return 0;
+}
