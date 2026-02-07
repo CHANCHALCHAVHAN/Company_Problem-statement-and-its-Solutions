@@ -105,60 +105,79 @@ Array
 Simulation
 Dynamic Programming
 */
-#include <bits/stdc++.h>
-using namespace std;
+import java.io.*;
+import java.util.*;
 
-int main() {
-    int n; cin >> n;
-    vector<int> prices(n);
-    for (int i = 0; i < n; i++) cin >> prices[i];
-    int threshold; cin >> threshold;
+public class Main {
+    static int n;
+    static int[] prices;
+    static int threshold;
+    static Integer[][] memo;   // memo[i][streak]
+    static boolean[][] seen;   // seen[i][streak]
 
-    // dp arrays: cash = not holding, hold = holding
-    vector<vector<long long>> cash(n+1, vector<long long>(3, LLONG_MIN));
-    vector<vector<long long>> hold(n+1, vector<long long>(3, LLONG_MIN));
-    vector<int> nextBuy(n+1, 0); // earliest day we can buy again
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line;
 
-    cash[0][0] = 0; // start with no stock, no streak
+        line = br.readLine();
+        while (line != null && line.trim().isEmpty()) line = br.readLine();
+        n = Integer.parseInt(line.trim());
 
-    for (int day = 0; day < n; day++) {
-        for (int streak = 0; streak < 3; streak++) {
-            if (cash[day][streak] != LLONG_MIN) {
-                // Wait
-                cash[day+1][streak] = max(cash[day+1][streak], cash[day][streak]);
-                // Buy (if allowed)
-                if (day >= nextBuy[day]) {
-                    hold[day+1][streak] = max(hold[day+1][streak], cash[day][streak] - prices[day]);
-                }
+        prices = new int[n];
+        line = br.readLine();
+        while (line != null && line.trim().isEmpty()) line = br.readLine();
+        StringTokenizer st = new StringTokenizer(line);
+        for (int i = 0; i < n; i++) {
+            if (!st.hasMoreTokens()) {
+                line = br.readLine();
+                while (line != null && line.trim().isEmpty()) line = br.readLine();
+                st = new StringTokenizer(line);
             }
-            if (hold[day][streak] != LLONG_MIN) {
-                // Wait
-                hold[day+1][streak] = max(hold[day+1][streak], hold[day][streak]);
-                // Sell
-                long long profit = hold[day][streak] + prices[day];
-                long long tradeProfit = profit - cash[day][streak]; // actual trade gain
-
-                if (tradeProfit > 0) {
-                    int k = tradeProfit / threshold;
-                    int newDay = day+1;
-                    nextBuy[newDay] = max(nextBuy[newDay], newDay + k);
-                    int newStreak = streak+1;
-                    if (newStreak == 3) {
-                        profit += tradeProfit / 10; // bonus
-                        newStreak = 0;
-                    }
-                    cash[day+1][newStreak] = max(cash[day+1][newStreak], profit);
-                } else {
-                    cash[day+1][0] = max(cash[day+1][0], profit);
-                }
-            }
+            prices[i] = Integer.parseInt(st.nextToken());
         }
+
+        line = br.readLine();
+        while (line != null && line.trim().isEmpty()) line = br.readLine();
+        threshold = Integer.parseInt(line.trim());
+
+        memo = new Integer[n + 1][3];
+        seen = new boolean[n + 1][3];
+
+        int ans = dfs(0, 0);
+        System.out.println(ans);
     }
 
-    long long ans = 0;
-    for (int streak = 0; streak < 3; streak++) {
-        ans = max(ans, cash[n][streak]);
+    // dfs(dayIndex, streak) -> maximum profit achievable starting at dayIndex,
+    // when NOT holding any stock and current consecutive-win streak = streak (0..2)
+    static int dfs(int day, int streak) {
+        if (day >= n) return 0;
+        if (seen[day][streak]) return memo[day][streak];
+
+        // Option 1: skip this day (do nothing)
+        int best = dfs(day + 1, streak);
+
+        // Option 2: buy at 'day' and choose some sell day j >= day
+        // (allow selling same day as buy -> profit 0)
+        for (int j = day; j < n; j++) {
+            int profit = prices[j] - prices[day];
+            int newStreak = (profit > 0) ? streak + 1 : 0;
+            int bonus = 0;
+            if (newStreak == 3) {
+                // 10% of the 3rd transaction profit, rounded down
+                bonus = profit / 10; // profit > 0 here
+                newStreak = 0; // streak resets after bonus
+            }
+
+            int cooldown = (profit > 0) ? (profit / threshold) : 0;
+            int nextDay = j + cooldown + 1;
+            if (nextDay > n) nextDay = n;
+
+            int total = profit + bonus + dfs(nextDay, newStreak);
+            best = Math.max(best, total);
+        }
+
+        seen[day][streak] = true;
+        memo[day][streak] = best;
+        return best;
     }
-    cout << ans << endl;
-    return 0;
 }
