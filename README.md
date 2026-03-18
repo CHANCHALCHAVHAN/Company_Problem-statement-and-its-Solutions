@@ -163,6 +163,9 @@ Here are some coding problems with their respective topics and difficulty levels
 | 89  | Resilient Towers | —                                                                                                           | **GCD.Greedy,array manipulation,Optimization,Simulation,Mathematics, Algorithms**| ★★☆☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/a921ad7cd907ec1b33125311b8ad45d3443e1ff5/Resilient%20Towers.cpp) |
 | 90  | Teleporting Strings Through Prime Portals |***Juspay,Mastercard,Infosys*** | **Greedy,Mathematics, Greedy,Simulation,Sorting,String,String,Manipulation,greedy**| ★★★★★ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/cb932e32f22b3aed2f71797dd958cf43649e9d05/Teleporting%20Strings%20Through%20Prime%20Portals.cpp) |
 | 91  | The Quantum Factory |***Meesho,Adobe,Goldman Sachs,Juspay*** | **Graph,DFS,BFS,Algorithms, Implementation,Data,Structure,Graph Theory**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/blob/3fc36b89f8002c33e82e9bfef468454359a7bcd9/The%20Quantum%20Factory.cpp) |
+| 92  | ‎Maximum Weighted Symmetric Partition |***MAQ Software,ZS,Juspay*** | **palindrome,Memoization,Partitioning,String,Palindromic Structure,Dynamic Programming**| ★★★☆☆ | [View](https://github.com/CHANCHALCHAVHAN/Company_Problem-statement-and-its-Solutions/commit/9b2c23eb505cbc0f50094649abada543be4dc863) |
+
+
 
 
 
